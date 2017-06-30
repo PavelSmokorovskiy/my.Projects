@@ -1,0 +1,16 @@
+Question to the teacher:
+1. Как в прописать адрес к файлу иконки, которая лежит в пакете на уровень выше?
+2. Как сделать слушатель на радиобатон и кнопку?
+3. Можно вывести консоль в новом окне?
+
+
+
+
+
+getInstance => Static instance
+
+if(instance == null);
+
+ Process p = Runtime.getRuntime().exec("cmd /c start cmd");
+ p.waitFor();
+ Runtime exec (String[] "cmd /c start cmd",String[] env);
